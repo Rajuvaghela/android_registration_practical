@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidPractical</string>
+    <string name="lbl_first_of_the_few_steps">First of the few steps to set you up with a Bank Account</string>
+    <string name="lbl_pan_number">Pan Number\n</string>
+    <string name="lbl_birthdate">Birthdate\n</string>
+    <string name="lbl_terms_and_condition"><![CDATA[Providing PAN & Date of Birth helps us find and fetch your KYC from a central registry by the Government of India. Learn more]]></string>
+    <string name="lbl_net">Next</string>
+    <string name="lbl_i_dont_have_a_pan">I don\'t have a PAN</string>
+    <string name="lbl_detail_submitted_successfully">Details submitted successfully</string>
+</resources>

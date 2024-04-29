@@ -1,0 +1,67 @@
+[versions]
+agp = "8.3.2"
+kotlin = "1.9.0"
+ksp = "1.9.21-1.0.16"
+coreKtx = "1.13.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+lifecycle_version = "2.7.0"
+room_version = "2.6.1"
+retrofit_version = "2.9.0"
+okhttp3 = "5.0.0-alpha.6"
+coroutines = "1.8.0"
+coroutines_test = "1.8.1-Beta"
+dagger_version = "2.51.1"
+glide_version = "4.16.0"
+arch_core="2.2.0"
+truth="1.0.1"
+junitKtx = "1.1.5"
+robolectric="4.12"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+# Lifecycle
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle_version" }
+lifecycle-viewmodel-savedstate = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-savedstate", version.ref = "lifecycle_version" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle_version" }
+lifecycle-livedata-common = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycle_version" }
+# Room
+room-runtime = { group="androidx.room", name="room-runtime", version.ref="room_version" }
+room-ktx = { group="androidx.room", name="room-ktx", version.ref="room_version" }
+room-compiler = { group="androidx.room", name="room-compiler", version.ref="room_version" }
+# Retrofit
+retrofit = { group="com.squareup.retrofit2", name="retrofit", version.ref="retrofit_version" }
+retrofit-converter-gson = { group="com.squareup.retrofit2", name="converter-gson", version.ref="retrofit_version" }
+retrofit-okhttp3 = { group="com.squareup.okhttp3", name="logging-interceptor", version.ref="okhttp3" }
+# Coroutines
+coroutines = { group="org.jetbrains.kotlinx", name="kotlinx-coroutines-android", version.ref="coroutines" }
+# Dagger
+dagger = { group="com.google.dagger", name="dagger", version.ref="dagger_version" }
+dagger-compiler = { group="com.google.dagger", name="dagger-compiler", version.ref="dagger_version" }
+# Glide
+glide = { group="com.github.bumptech.glide", name="glide", version.ref="glide_version" }
+glide-compiler = { group="com.github.bumptech.glide", name="compiler", version.ref="glide_version" }
+# Test
+junit_test = { group = "junit", name = "junit", version.ref = "junit" }
+arch-core-test = { group = "androidx.arch.core", name = "core-testing", version.ref = "arch_core" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+coroutine-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines_test" }
+google-truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+google-ksp = { id="com.google.devtools.ksp", version.ref="ksp" }
